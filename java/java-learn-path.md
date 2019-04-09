@@ -6,6 +6,6 @@
 * Learn (videos) how to create a project, using a package from another project
 * Learn and try, syncing the Eclipse environment with GitHub.
   * Key concepts appear in a [Youtube video](https://www.youtube.com/watch?v=ptK9-CNms98) by ThChernoProject
-  * 
+  * Steps to [create a new Eclipse Java project, and add it to GitHub](eclipse-new-plus-github.md)
 
 {% include_relative footer_java.md %}

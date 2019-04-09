@@ -1,6 +1,3 @@
----
-title: Any topics, start
----
 # Index
 
 1. Java 1st steps, on Eclipse
