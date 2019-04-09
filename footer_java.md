@@ -1,3 +1,5 @@
-
+---
+notes: File included as a footer
+---
 ***
-Hello
+[Index](index.md)

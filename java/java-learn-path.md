@@ -5,7 +5,7 @@
 * Learn (videos) how to create a package
 * Learn (videos) how to create a project, using a package from another project
 * Learn and try, syncing the Eclipse environment with GitHub.
+  * Key concepts appear in a [Youtube video](https://www.youtube.com/watch?v=ptK9-CNms98) by ThChernoProject
+  * 
 
----
-[Index](index.md)
 {% include_relative footer_java.md %}
