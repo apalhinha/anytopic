@@ -1,3 +1,3 @@
 
 ***
-[Index](../index.md)
+1 [Index](index.md)
