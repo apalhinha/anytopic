@@ -1,8 +1,12 @@
 ---
-title: Eclipse new Java project and add to GitHub
+title: New Java project, Eclipse and GitHub
 ---
 
+# Context
+
 These steps were followed to create a totally new Eclipse project, in sync with GitHub
+
+# Step by step
 
 * In GitHub, create a totally blank project (no readme, no license, no nothing)
 * In Eclipse, created a Java project named 'snippet-collector'.
