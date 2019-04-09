@@ -44,9 +44,9 @@ These steps were followed to create a totally new Eclipse project, in sync with 
   * Copy+paste the intended license text
     * Use https://choosealicense.com/ to select the license
 	* In case you want the MIT License (permissive, copy-write notice o be kept), get it from https://choosealicense.com/licenses/mit/
-	
+	* Remember to fix the year and your name
 
-# Read aterials
+# Read Materials
 * Key concepts appear in a [Youtube video](https://www.youtube.com/watch?v=ptK9-CNms98) by TheChernoProject
 
 {% include_relative footer_java.md %}
