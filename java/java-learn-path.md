@@ -8,4 +8,10 @@
   * Key concepts appear in a [Youtube video](https://www.youtube.com/watch?v=ptK9-CNms98) by ThChernoProject
   * Steps to [create a new Eclipse Java project, and add it to GitHub](eclipse-new-plus-github.md)
 
+
+In the page: [index.md](index.md)
+In the page, [to parent](../index.md)
+
+---
+
 {% include_relative footer_java.md %}
