@@ -42,8 +42,8 @@ These steps were followed to create a totally new Eclipse project, in sync with 
   * Select the 'snippet-collector \[snippet-collector master\] folder as parent folder
   * Name the file LICENSE
   * Copy+paste the intended license text
-    * Use https://choosealicense.com/ to select the license
-	* In case you want the MIT License (permissive, copy-write notice o be kept), get it from https://choosealicense.com/licenses/mit/
+    * Use [https://choosealicense.com/](https://choosealicense.com/){:target="_blank"} to select the license
+	* In case you want the MIT License (permissive, copy-write notice o be kept), get it from [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/) {:target="_blank"}
 	* Remember to fix the year and your name
 
 # Read Materials
