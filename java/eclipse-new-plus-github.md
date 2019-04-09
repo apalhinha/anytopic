@@ -13,6 +13,9 @@ These steps were followed to create a totally new Eclipse project, in sync with 
   * Project root is in a folder synced with the cloud. Perhaps redundant, but there will be sources not managed by Git, so a backup is needed
   * Used my_root / root_cloud / root_eclipse / Snippet Collector / snippet-collector
   * Folders follow my naming convention, last one uses github naming convention
+    * Eclipse configuration
+	* Location: ...\Snippet Collector\snippet-collector (folder is there)
+	* Project name: snippet-collector
 * In Eclipse, create a first SnippetCollectorApp class, including the main() function
 
 
