@@ -48,5 +48,11 @@ These steps were followed to create a totally new Eclipse project, in sync with 
 
 # Read Materials
 * Key concepts appear in a [Youtube video](https://www.youtube.com/watch?v=ptK9-CNms98) by TheChernoProject
+* Eclipse, branch and merge with GitHub, [Youtube video](https://www.youtube.com/watch?v=XuuzSaelUzo){:target="_blank"} from GitHub Training & Guides collection
+  * Video goes slow, yet good
+  * Clone a GitHub repository and then link a Eclipse project to in in 12:23
+  * In Eclipse, create a branch, pull it to GitHub
+  * In GitHub, do a pull request, and accept the merge
+  * Back to Eclipse, pull from remote, to have the same base
 
 {% include_relative footer_java.md %}
