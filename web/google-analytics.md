@@ -13,6 +13,9 @@ given group of users. A given project with 2 web sites and one app would need (3
    1. Not sure on the advantage, just followed google's recommendation
    
 Because this property was for a GitHub Pages site, I've added
-```google_analytics: UA-XXXXXXXXX-X
+```
+google_analytics: UA-XXXXXXXXX-X
+```
 to _config.yml
 
+{% include_relative footer_web.md %}
