@@ -96,8 +96,10 @@ public class MyLog {
 			}
 			throw (AlreadyHandledException)e;
 		} else {  // Lowest level. Stack trace is needed
-			getLogger().log(Level.SEVERE, e.getMessage(), e); // TODO: Nicer Stack trace here
-			if (message.length()>0) {  // Developer included context information, to be shown.
+			// TODO: Nicer Stack trace here
+			getLogger().log(Level.SEVERE, e.getMessage(), e); 
+			if (message.length()>0) {  
+				// Developer included context information, to be shown.
 				getLogger().log(Level.SEVERE, message);
 			}
 			throw new AlreadyHandledException(); // 
