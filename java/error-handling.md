@@ -25,7 +25,7 @@ public void toplevel() {
 Every other function will throw an error to the upper level.
 The message log function will know whether the stack-trace should be listed or not.
 
-´´´ java
+``` java
 public void do_something() throws Exception {
 	try {
 		// do stuff, logic, and calls
@@ -52,11 +52,7 @@ And the MyLog object
 ```
 package info.trustzone.logger;
 import java.io.IOException;
-import java.util.logging.SimpleFormatter;
-import java.util.logging.FileHandler;
-import java.util.logging.Handler;
-import java.util.logging.Logger;
-import java.util.logging.Level;
+import java.util.logging.*;
 
 public class MyLog {
 	static Logger logger;
