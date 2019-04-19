@@ -104,3 +104,5 @@ public class MyLog {
 	
 }
 ```
+
+{% include_relative footer_java.md %}
