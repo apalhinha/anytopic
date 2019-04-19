@@ -15,6 +15,9 @@ Steps are:
   * There are many ways
   * Search [eclipse push to github](https://www.google.com/search?q=eclipse+push+to+github){:target="_blank"}
   * Used steps are enumerated in '[create a new Eclipse Java project, and add it to GitHub](eclipse-new-plus-github.md)'
-* Learn how to perform unit tests, search [eclipse unit test](https://www.google.com/search?q=eclipse+unit+test){:target="_blank"}
+* Learn how to perform unit tests
+  * Search [eclipse unit test](https://www.google.com/search?q=eclipse+unit+test){:target="_blank"}
+  * [Simple video](https://www.youtube.com/watch?v=v2F49zLLj-8) showing what is needed.
+* Learn and decide an error handling approach. Using a [simple one](error-handling.md).
 
 {% include_relative footer_java.md %}
