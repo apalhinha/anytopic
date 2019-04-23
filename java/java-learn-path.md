@@ -17,7 +17,8 @@ Steps are:
   * Used steps are enumerated in '[create a new Eclipse Java project, and add it to GitHub](eclipse-new-plus-github.md)'
 * Learn how to perform unit tests
   * Search [eclipse unit test](https://www.google.com/search?q=eclipse+unit+test){:target="_blank"}
-  * [Simple video](https://www.youtube.com/watch?v=v2F49zLLj-8) showing what is needed.
+  * This [Simple video](https://www.youtube.com/watch?v=v2F49zLLj-8){:target="_blank"} shows what is needed.
 * Learn and decide an error handling approach. Using a [simple one](error-handling.md).
+* Use breakpoints and debug mode. Search [debug eclipse java](https://www.google.com/search?q=debug+eclipse+java){:target="_blank"}, or see the [video by in28minutes](https://www.youtube.com/watch?v=i_Gonsk_qGA&t=43){:target="_blank"}
 
 {% include_relative footer_java.md %}

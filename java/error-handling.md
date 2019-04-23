@@ -13,10 +13,12 @@ The user will decide whether to retry, or quit.
 
 ```java
 public void toplevel() {
-	// Acts as the top level for the error handler, no more throws from here
+	// Acts as the top level for the error handler, no more throws from here but log is updated
 	try {
 		do_something();
-	} catch (Exception e) {}
+	} catch (Exception e) {
+		MyLog.exceptionTop(e, null);
+	}
 	return ;
 }
 ```
@@ -30,6 +32,7 @@ public void do_something() throws Exception {
 	try {
 		// do stuff, logic, and calls
 	} catch (Exception e) {
+		// Log the error, throw new exception for upper level
 		MyLog.exception(e, "Optional context information");
 	}
 	return;
