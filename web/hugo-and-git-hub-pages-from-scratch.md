@@ -109,6 +109,7 @@ workout\public> git pull origin
 ## Now change your website
 Use your favorite editor.
 Update pages under "content" folder
+
 When you want to see, check in the local machine
 ```
 workout> hugo server -D (include pages flagged as draft)
@@ -118,11 +119,12 @@ workout> hugo server    (drafts are kept away, same that will be published)
 
 ## Happy? Publish
 When happy with the new content, publish, commit to git, and push to the remote repository
-
+```
 workout\public> hugo
 workout\public> git add .
 workout\public> git commit -m "commit"
 workout\public> git push origin master
+```
 
 Sometimes it takes a few minutes for GitHub Pages to display the updated content
 
