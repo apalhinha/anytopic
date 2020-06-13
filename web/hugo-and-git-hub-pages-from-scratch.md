@@ -21,4 +21,104 @@ websites> hugo new site workout
 * You will get someting like ...\workout\themes\Mainroad-master
 * Rename folder "Mainroad-master" to "mainroad"
 
+# Add a theme
+* Download the zip from https://github.com/Vimux/mainroad
+* Inside there is a single folder. Copy it to ...\workout\themes
+* You will get someting like ...\workout\themes\Mainroad-master
+* Rename folder "Mainroad-master" to "mainroad"
+
+# Change to the website folder. All commands will happen here, from now on
+```
+websites> cd workout
+websites\workout>
+```
+
+# Tell hugo that you are using the Mainroad theme
+```
+websites\workout> echo theme = "mainroad" >> config.toml
+```
+
+# Tell hugo to publish in a "docs" folder instead of the default "public".
+Will be requiered by GitHug pages, ahead
+```
+websites\workout> echo publishDir = "docs" >> config.toml
+```
+
+# Set your custom URL as basepath
+Edit file config.toml in the website folder
+Change
+```
+baseURL = "http://example.org/"
+```
+to
+```
+baseURL = "http://your.custom.url.com/"
+```
+
+# Create a first post
+```
+websites\workout> hugo new blog\hello.md
+```
+Edit content\blog\hello.md, put some text there
+Inside the file, remember to change
+```
+draft: false
+into
+draft: true
+```
+This depends you the theme you are using
+
+# Test locally
+```
+websites\workout> hugo server -D
+```
+Open your browser, go to http://localhost:1313
+When you are done, stop the local server with Ctrl+C
+
+# Publish site to the "docs" folder
+```
+websites\workout> hugo
+```
+
+# Greate repository workout
+In Github, create a repository named workout
+do not "Initialize this repository with a README"
+
+# Create a Git repository, sync with the GitHub project
+```
+websites\workout> git init
+websites\workout> git add .
+websites\workout> git commit -m "first commit"
+websites\workout> git remote add origin https://github.com/apalhinha/workout.git
+websites\workout> git push -u origin master
+```
+
+# Activate GitHub Pages
+In Github -> settings -> GitHub Pages
+Source = Master Branch / docs Folder
+Custom domain = workout.mycontributes.online
+
+# Github settings are changed the remote repository.
+Bring those changes to the local copy
+```
+workout\public> git pull origin
+```
+
+# Ready to change your web site.
+When you want to see, check in the local machine
+```
+workout>hugo server -D (include pages flagged as draft)
+or
+workout>hugo server    (drafts are kept away, same that will be published)
+```
+
+# When happy with the new content, publish, commit to git, and push to the remote repository
+
+workout\public> hugo
+workout\public> git add .
+workout\public> git commit -m "commit"
+workout\public> git push origin master
+
+Sometimes it takes a few minutes for GitHub Pages to display the updated content
+
 {% include_relative footer_web.md %}
