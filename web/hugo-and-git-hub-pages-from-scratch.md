@@ -106,7 +106,9 @@ Bring those changes to the local copy
 workout\public> git pull origin
 ```
 
-## Ready to change your web site.
+## Now change your website
+Use your favorite editor.
+Update pages under "content" folder
 When you want to see, check in the local machine
 ```
 workout> hugo server -D (include pages flagged as draft)
