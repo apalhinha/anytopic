@@ -58,3 +58,10 @@ git merge a_hotfix    # merge changes made in a_hotfix
 git branch -d a_test  # Delete the branch
 ```
 
+## Listing commands
+
+```
+git log --decorate  # see (some) branches
+git log --all --decorate # See all branches
+git log --oneline --decorate --graph --all  # nicer format
+```
