@@ -1,7 +1,7 @@
 ---
 title: Hugo and GitHub Pages from scratch
 ---
-# Create a new Github Pages site based on Hugo
+## Create a new Github Pages site based on Hugo
 
 Creating a new GitHub Pages site based on Hugo, and following this page, assumes
 * A GitHub account exists
