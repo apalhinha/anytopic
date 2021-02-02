@@ -34,8 +34,8 @@ git push origin master
 ## Create and activate an hotfix branch
 
 ```
-git branch a_hotfix     # create branch
-git checkout a_hotfix   # activate branch
+git branch a_hotfix    # create branch
+git checkout a_hotfix  # activate branch
 ```
 
 (do changes in the branch)
@@ -48,14 +48,14 @@ git commit -m 'this works'
 ## Merge hot fix in the master
 
 ```
-git checkout master   # activate master
-git merge a_hotfix    # merge changes made in a_hotfix
+git checkout master    # activate master
+git merge a_hotfix     # merge changes made in a_hotfix
 ```
 
 ## Delete unneeded branches (merger or not)
 
 ```
-git branch -d a_test  # Delete the branch
+git branch -d a_hotfix # Delete the branch
 ```
 
 ## Listing commands
