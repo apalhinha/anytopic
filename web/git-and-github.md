@@ -65,3 +65,10 @@ git log --decorate  # see (some) branches
 git log --all --decorate # See all branches
 git log --oneline --decorate --graph --all  # nicer format
 ```
+
+## See what can be undone, or undone one file
+```
+git checkout --        # See what is available to undo
+git checkout filename  # Undo changes in the filename
+
+```
